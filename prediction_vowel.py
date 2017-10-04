@@ -1,6 +1,5 @@
 #############################################
-#### PCA for vocals recognition
-# Basado en los ejemplos de curso Fundamentos de Sistemas Distribuidos
+#### PCA for vowels recognition
 # Docente : Maria Patricia - maria.trujillo@correounivalle.edu.co 
 # Course: INTRODUCTION TO PATTERN RECOGNITION FOR COMPUTER VISION-01
 # Author:  Fabio Andres Herrera - fabio.herrera@correounivalle.edu.co
@@ -10,7 +9,7 @@
 ## - OpenCV 3.2.0
 ## - NumPy 1.11.3           
 ################################################
-##  Using PCA (Principal Component Analysis) for Prediction vowel images  
+##  Using PCA (Principal Component Analysis) for vowel prediction in images 
 ##  Algorithm Steps : 
 ##  -  Read image to be predicted
 ##  -  Image resize if needed
