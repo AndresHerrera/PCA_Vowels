@@ -1,7 +1,7 @@
 # PCA_Vowels
 Perform PCA (Principal Component Analysis) -  for vowel recognition using OpenCV 
 
-##Usage:
+# Usage:
 
 ##  Extract and crop single vowels images from an array image
 
