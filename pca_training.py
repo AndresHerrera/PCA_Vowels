@@ -1,6 +1,6 @@
 #############################################
 #### PCA for vowels recognition
-# Docente : Maria Patricia - maria.trujillo@correounivalle.edu.co 
+# Teacher : Maria Patricia - maria.trujillo@correounivalle.edu.co 
 # Course: INTRODUCTION TO PATTERN RECOGNITION FOR COMPUTER VISION-01
 # Author:  Fabio Andres Herrera - fabio.herrera@correounivalle.edu.co
 ################################################

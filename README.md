@@ -1,5 +1,13 @@
 # PCA_Vowels
-Perform PCA (Principal Component Analysis) -  for vowel recognition using OpenCV 
+Perform PCA (Principal Component Analysis) -  for vowel recognition using OpenCV in Python
+
+#### Teacher : Maria Patricia - maria.trujillo@correounivalle.edu.co 
+#### Course: INTRODUCTION TO PATTERN RECOGNITION FOR COMPUTER VISION-01
+#### Author:  Fabio Andres Herrera - fabio.herrera@correounivalle.edu.co
+
+## Requirements :  
+- OpenCV 3.2.0
+- NumPy 1.11.3 
 
 # Usage:
 
