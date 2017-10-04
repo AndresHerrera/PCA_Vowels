@@ -15,7 +15,7 @@ Perform PCA (Principal Component Analysis) -  for vowel recognition using OpenCV
 
 ![Step 2](step2.png)
 
-##  Using PCA (Principal Component Analysis) for vowel prediction in images 
+##  Using PCA (Principal Component Analysis) for vowel prediction in a single image 
 
 - python prediction_vowel.py
 
