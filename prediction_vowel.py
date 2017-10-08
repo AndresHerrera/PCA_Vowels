@@ -60,7 +60,7 @@ def main():
 	cv2.imshow('Test Image',imgThresh)
 
 	npaFlattenedImage = imgThresh.reshape((1, w * h)) 
-	print npaFlattenedImage.shape
+	print (npaFlattenedImage.shape)
 	mean_to= npaFlattenedImage.mean()
 
 	m=[]
@@ -68,7 +68,7 @@ def main():
 	vowels=['A','E','I','O','U']
 	cnt=0
 	for v in vowels:
-		print 'Read ' + v + ' mean image from directory !'
+		print ('Read ' + v + ' mean image from directory !')
 		f= 'trained/pca_vowels_'+v+'.png'
 		print(f)
 		
@@ -83,18 +83,18 @@ def main():
 		m.append( distance );
 
 	#Distance array
-	print 'Euclidean Distance Array: '
-	print m
+	print ('Euclidean Distance Array: ')
+	print (m)
 	#Min Distance
-	print 'Min Distance: '
-	print min(m)
+	print ('Min Distance: ')
+	print (min(m))
 	#Array Position
-	print 'Array Position: '
+	print ('Array Position: ')
 	pos=m.index(min(m))
-	print pos
+	print (pos)
 	#Vowel Recognized
-	print 'The Vowel Recognized Is : '
-	print vowels[pos]
+	print ('The Vowel Recognized Is : ')
+	print (vowels[pos])
 
 
 	cv2.waitKey(0)

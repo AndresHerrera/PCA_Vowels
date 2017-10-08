@@ -45,7 +45,7 @@ def main():
 	for v in vowels:
 		in_matrix = None 
 		imgcnt=0
-		print 'Read from: ' + v + ' Directory '
+		print ('Read from: ' + v + ' Directory ')
 		for f in os.listdir(os.path.join('training/',v)):
 		    imgcnt+=1
 		    print(f)
